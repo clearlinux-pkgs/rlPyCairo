@@ -4,7 +4,7 @@
 #
 Name     : rlPyCairo
 Version  : 0.0.7
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/20/47/ff0e6c7e765e7eb96310e1171e854db8fbcb0950e9366f6d3695c64cc1b2/rlPyCairo-0.0.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/20/47/ff0e6c7e765e7eb96310e1171e854db8fbcb0950e9366f6d3695c64cc1b2/rlPyCairo-0.0.7.tar.gz
 Summary  : Plugin backend renderer for reportlab.graphics.renderPM
@@ -13,8 +13,6 @@ License  : BSD-3-Clause
 Requires: rlPyCairo-license = %{version}-%{release}
 Requires: rlPyCairo-python = %{version}-%{release}
 Requires: rlPyCairo-python3 = %{version}-%{release}
-Requires: pypi(pycairo)
-Requires: pypi(reportlab)
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(pycairo)
 BuildRequires : pypi(reportlab)
@@ -92,7 +90,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1637263970
+export SOURCE_DATE_EPOCH=1637264280
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
